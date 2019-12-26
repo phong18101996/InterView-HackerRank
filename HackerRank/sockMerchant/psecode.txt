@@ -1,0 +1,12 @@
+input:
+n = 9
+array = [10,20,20,10,10,30,50,10,20]
+output:3
+- tạo merge array , merge những ptu trong array.
+- khi đã có merge array, lặp merge array
+- trong vòng lặp merge, lặp array 
+- dem=0;
+- nếu merge[index]=array[index]
+- dem++;
+- merge[value][total] = dem/2 lấy int.
+- tổng total là xong.
