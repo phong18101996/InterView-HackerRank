@@ -1,15 +1,11 @@
 <!-- 
 Name:Phong Nguyen
 Description:HackerRank Interview
-Content:
-For example : array = [DDUUUUDD] 
-output :2 , because it have 2 "DD" 
+Content: 
 Example:
 input:8
 UDDDUDUU
 output:1
-D D D DD
-DDUUUUDD
  -->
 <?php
 function countingValleys($n, $s)
