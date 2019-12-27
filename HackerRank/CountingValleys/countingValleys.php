@@ -14,30 +14,19 @@ DDUUUUDD
 <?php
 function countingValleys($n, $s)
 {
-   // $str_replace = str_replace("D", " ", $s);
-   // $explode = explode(" ", $str_replace);
    $convert = str_split($s,1);
    $v = 0;
-   $lvl = 0;
+   $valleys = 0;
    foreach($convert as $key => $value) {
        if($value=="U") {
-            ++$lvl;
+            ++$valleys;
        } else {
-            --$lvl;
+            --$valleys;
        }
-       if($lvl == 0 && $value=="U")
+       if($valleys == 0 && $value=="U")
        ++$v;
    }
    echo $v;
-
-    // $result = 0;
-    // foreach ($explode as $key => $value) {
-    //     $temp = (int) strlen($value) / 2;
-    //     if ($temp >= 1) {
-    //         $result += (int) $temp;
-    //     }
-    // }
-    // echo $result;
 }
 countingValleys(10,"DUDDDUUDUU");
 ?>
