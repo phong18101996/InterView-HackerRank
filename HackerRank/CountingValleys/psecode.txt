@@ -1,0 +1,14 @@
+Sample Input
+8
+UDDDUDUU
+Sample Output
+1
+- duyệt qua hết chuỗi .
++ tạo vòng lặp để duyệt hết chuỗi
++ vòng lặp đầu tiên index = 0 , trong đó add 1 vòng lặp bắt đầu từ index = index +  1
+- chữ D xuất hiện 2 lần liên tiếp , đếm 1 
++ if value[index] = value[index + 1]
++ đếm 
+- trả về đếm .
+ex:
+DDDDDUU
